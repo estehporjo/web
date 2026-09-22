@@ -1,0 +1,621 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#e8f79d" />
+    <meta
+      name="description"
+      content="Es Teh Porjo — Es Teh Cita Rasa Luar Biasa. Segar, Nikmat, Kroso Tehne."
+    />
+    <title>Es Teh Porjo — Es Teh Cita Rasa Luar Biasa</title>
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@500;600;700;800;900&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wipe"></div>
+    <div class="cursor-glow"></div>
+
+    <header class="header" id="header">
+      <a class="brand" href="#beranda"
+        ><img src="assets/logo.png" alt="Es Teh Porjo"
+      /></a>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav">
+        <a href="#beranda" class="active">Beranda</a>
+        <a href="#menu">Menu</a>
+        <a href="#promo">Promo</a>
+        <a href="#stand">Stand</a>
+        <a href="#lokasi">Lokasi</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#artikel">Artikel</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+      <a class="order" href="#kontak"
+        ><span class="svg-icon">WA</span> Pesan Sekarang <b>→</b></a
+      >
+    </header>
+
+    <div class="tea-leaf-decor" aria-hidden="true">
+      <img class="tea-leaf leaf-top-left" src="assets/tea-leaf.png" alt="" />
+      <img class="tea-leaf leaf-top-right" src="assets/tea-leaf.png" alt="" />
+      <img class="tea-leaf leaf-left" src="assets/tea-leaf.png" alt="" />
+      <img class="tea-leaf leaf-right" src="assets/tea-leaf.png" alt="" />
+      <img class="tea-leaf leaf-bottom-left" src="assets/tea-leaf.png" alt="" />
+      <img
+        class="tea-leaf leaf-bottom-right"
+        src="assets/tea-leaf.png"
+        alt=""
+      />
+    </div>
+
+    <main>
+      <section id="beranda" class="hero section">
+        <div class="hero-bg"></div>
+        <div class="hero-copy reveal-left">
+          <span class="eyebrow">NIKMAT • SEGAR • KROSO TEHNE</span>
+          <h1>Es Teh<br /><em> Porjo</em></h1>
+          <div class="yellow-brush"></div>
+          <p>
+            Es Teh yang dekat dengan keseharian masyarakat. Segar, nikmat,
+            harga bersahabat, dan <b>kroso tenan tehnya.</b>
+          </p>
+          <div class="hero-actions">
+            <a class="btn red" href="#menu">Lihat Menu <b>→</b></a>
+            <a class="btn white" href="#stand"
+              >Cari Stand <b class="svg-icon">MAP</b></a
+            >
+          </div>
+          <div class="hero-points">
+            <div>
+              <span class="circle-icon svg-circle tea-icon"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M19.4 4.2C12.5 4.4 6.4 6.8 5.1 12.1c-.8 3.1 1.1 5.7 4 6 3.4.4 6.6-2.4 8-5.6 1.1-2.4 1.8-5.2 2.3-8.3Z"
+                  />
+                  <path d="M5.4 19.1c3.2-3.8 6.3-6.7 10.7-9.8" />
+                  <path d="M9.4 7.8c1.1 1 2 2.1 2.7 3.3" /></svg></span
+              ><span><b>Teh Asli</b><small>Berkualitas</small></span>
+            </div>
+            <div>
+              <span class="circle-icon svg-circle"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M7 8h10l-1 11H8L7 8Z" />
+                  <path d="M9 5h6" />
+                  <path d="M9 12h6M10 15h4" /></svg></span
+              ><span><b>Segar</b><small>Setiap Hari</small></span>
+            </div>
+            <div>
+              <span class="circle-icon svg-circle sugar-icon"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6 8.5 12 5l6 3.5-6 3.4L6 8.5Z" />
+                  <path d="M6 8.5v7L12 19v-7.1M18 8.5v7L12 19" />
+                  <path d="M8.7 10.1v4.5M15.3 10.1v4.5" /></svg></span
+              ><span
+                ><b>100% Gula Asli</b><small>Tanpa pemanis buatan</small></span
+              >
+            </div>
+            <div>
+              <div class="price-feature">
+                <span class="circle-icon svg-circle price-rp">Rp</span>
+                <span>
+                  <b>Harga</b>
+                  <small>Bersahabat</small>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual reveal-right">
+          <div class="hero-frame">
+            <img
+              class="hero-badge-now"
+              src="assets/badge-sekarang-juga.png"
+              alt="Nikmati Sekarang Juga!"
+            />
+            <img
+              src="assets/hero-stand.png"
+              alt="Stand Es Teh Porjo"
+              class="hero-photo"
+            />
+            <img
+              class="hero-badge-sugar"
+              src="assets/badge-gula-asli.png"
+              alt="100% Gula Asli"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="trust section-narrow reveal-up">
+        <div><b>100% Teh Asli</b><small>Rasa teh terasa</small></div>
+        <i></i>
+        <div><b>Bahan Berkualitas</b><small>Dipilih dengan baik</small></div>
+        <i></i>
+        <div><b>Rasa Khas Nusantara</b><small>Akrab di lidah</small></div>
+        <i></i>
+        <div><b>Harga Terjangkau</b><small>Untuk semua kalangan</small></div>
+        <i></i>
+        <div><b>Disukai Semua</b><small>Teman setiap aktivitas</small></div>
+        <i></i>
+        <div><b>Praktis</b><small>Siap minum kapan saja</small></div>
+      </section>
+
+      <section id="promo" class="section promo">
+        <div class="section-title reveal-left">
+          <span class="eyebrow">PROMO SPESIAL</span>
+          <h2>Segarnya <em>Es Teh Porjo</em>,<br />lebih hemat!</h2>
+          <p>Voucher dan program talent untuk pelanggan serta kreator lokal.</p>
+        </div>
+        <div class="promo-grid">
+          <article class="voucher reveal-up">
+            <span class="limited">PROMO TERBATAS</span>
+
+            <div class="voucher-content">
+              <small>VOUCHER DISKON</small>
+              <strong>GRATIS 1 di Hari Jumat</strong>
+              <label>Setiap Pembelian 3 Cup Jumbo</label>
+              <b>Kode: PORJOGRTS1</b>
+            </div>
+
+            <img
+              class="voucher-image"
+              src="assets/promo-jumat.png"
+              alt="Promo Es Teh Porjo"
+            />
+
+            <button id="voucherBtn">↓ Ambil Voucher</button>
+          </article>
+          <article class="talent reveal-right">
+            <div class="talent-copy">
+              <span class="script">Jadi</span>
+
+              <h3>
+                TALENT<br />
+                <i>Es Teh Porjo!</i>
+              </h3>
+
+              <ul>
+                <li>Tampil di media sosial kami</li>
+                <li>Dapat produk gratis</li>
+                <li>Bisa jadi wajah resmi Porjo</li>
+                <li>Kesempatan kolaborasi</li>
+              </ul>
+
+              <a href="#kontak" class="talent-cta"> Daftar Sekarang → </a>
+            </div>
+
+            <img
+              class="talent-image"
+              src="assets/talent.png"
+              alt="Talent Es Teh Porjo"
+            />
+          </article>
+        </div>
+      </section>
+
+      <section id="menu" class="section menu-section">
+        <div class="section-title center reveal-up">
+          <span class="eyebrow">MENU ANDALAN</span>
+          <h2>Nikmati kesegaran<br /><em>Es Teh Porjo.</em></h2>
+          <p>Pilih ukuran, lalu tentukan varian favoritmu.</p>
+        </div>
+        <div class="size-switch reveal-up">
+          <button class="size active" data-size="16">16 oz Regular</button
+          ><button class="size" data-size="22">22 oz Jumbo</button>
+        </div>
+        <div class="menu-grid menu-grid-v8">
+          <article
+            class="menu-card menu-card-v8 reveal-up"
+            data-16="3.000"
+            data-22="4.000"
+            data-img16="assets/menu-melati-16.png"
+            data-img22="assets/menu-melati-22.png"
+          >
+            <div class="menu-art menu-art-v8">
+              <img
+                class="menu-product-img"
+                src="assets/menu-melati-16.png"
+              />
+            </div>
+            <div class="menu-content-v8">
+              <h3>Es Teh Melati</h3>
+              <p>Wangi melati dan rasa teh ringan.</p>
+              <div class="menu-bottom-v8">
+                <b>Rp <span class="price">3.000</span></b
+                ><a href="#kontak" aria-label="Pesan Es Teh Melati">→</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="menu-card menu-card-v8 reveal-up d1"
+            data-16="3.000"
+            data-22="4.000"
+            data-img16="assets/menu-jawa-16.png"
+            data-img22="assets/menu-jawa-22.png"
+          >
+            <div class="menu-art menu-art-v8">
+              <img
+                class="menu-product-img"
+                src="assets/menu-jawa-16.png"
+              />
+            </div>
+            <div class="menu-content-v8">
+              <h3>Es Teh Jawa</h3>
+              <p>Karakter teh lebih kuat dan khas.</p>
+              <div class="menu-bottom-v8">
+                <b>Rp <span class="price">3.000</span></b
+                ><a href="#kontak" aria-label="Pesan Es Teh Jawa">→</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="menu-card menu-card-v8 reveal-up d2"
+            data-16="4.000"
+            data-22="5.000"
+            data-img16="assets/menu-sereh-16.png"
+            data-img22="assets/menu-sereh-22.png"
+          >
+            <div class="menu-art menu-art-v8">
+              <img
+                class="menu-product-img"
+                src="assets/menu-sereh-16.png"
+              />
+            </div>
+            <div class="menu-content-v8">
+              <h3>Es Teh Sereh</h3>
+              <p>Aroma sereh yang wangi dan segar.</p>
+              <div class="menu-bottom-v8">
+                <b>Rp <span class="price">4.000</span></b
+                ><a href="#kontak" aria-label="Pesan Es Teh Sereh">→</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="menu-card menu-card-v8 reveal-up"
+            data-16="4.000"
+            data-22="5.000"
+            data-img16="assets/menu-krampul-16.png"
+            data-img22="assets/menu-krampul-22.png"
+          >
+            <div class="menu-art menu-art-v8">
+              <img
+                class="menu-product-img"
+                src="assets/menu-krampul-16.png"
+              />
+            </div>
+            <div class="menu-content-v8">
+              <h3>Es Teh Krampul</h3>
+              <p>Sentuhan jeruk yang ceria.</p>
+              <div class="menu-bottom-v8">
+                <b>Rp <span class="price">4.000</span></b
+                ><a href="#kontak" aria-label="Pesan Es Teh Krampul">→</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="menu-card menu-card-v8 reveal-up d1"
+            data-16="4.000"
+            data-22="5.000"
+            data-img16="assets/menu-manggis-16.png"
+            data-img22="assets/menu-manggis-22.png"
+          >
+            <div class="menu-art menu-art-v8">
+              <img
+                class="menu-product-img"
+                src="assets/menu-manggis-16.png"
+              />
+            </div>
+            <div class="menu-content-v8">
+              <h3>Es Teh Kulit Manggis</h3>
+              <p>Varian unik dengan karakter berbeda.</p>
+              <div class="menu-bottom-v8">
+                <b>Rp <span class="price">4.000</span></b
+                ><a href="#kontak" aria-label="Pesan Es Teh Kulit Manggis">→</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="specs reveal-up">
+          <img
+            src="assets/spesifikasi-reference.png"
+            alt="Referensi spesifikasi gelas Es Teh Porjo 16 oz dan 22 oz"
+          />
+        </div>
+      </section>
+
+      <section id="stand" class="section stand-section">
+        <div class="section-title center reveal-up">
+          <span class="eyebrow">STAND ES TEH PORJO</span>
+          <h2>Temukan <em>Es Teh Porjo</em><br />di dekatmu.</h2>
+          <p>
+            Halaman stand dibuat sebagai katalog outlet. Foto dan alamat asli
+            tiap titik bisa langsung dipasang tanpa mengubah struktur desain.
+          </p>
+        </div>
+
+        <div class="stand-grid">
+          <article class="stand-card reveal-left">
+            <div class="stand-photo">
+              <img
+                src="assets/stand-gallery-1.png"
+                alt="Foto stand Es Teh Porjo"
+              /><span class="photo-label">FOTO STAND</span>
+            </div>
+            <div class="stand-info">
+              <span class="stand-tag">STAND 01</span>
+              <h3>KUD</h3>
+              <p class="address">Jl H Nadih, Sukamaju, Cilodong, Depok.</p>
+              <a class="map-link" href="https://maps.app.goo.gl/UHEy5VtZcipGuxiB8" data-map="KUD Es Teh Porjo"
+                >Buka Maps
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 21s7-6.1 7-12A7 7 0 1 0 5 9c0 5.9 7 12 7 12Z" />
+                  <circle cx="12" cy="9" r="2.3" /></svg
+              ></a>
+            </div>
+          </article>
+
+          <article class="stand-card reveal-up">
+            <div class="stand-photo">
+              <img
+                src="assets/stand-gallery-2.png"
+                alt="Foto stand Es Teh Porjo"
+              /><span class="photo-label">FOTO STAND</span>
+            </div>
+            <div class="stand-info">
+              <span class="stand-tag">STAND 02</span>
+              <h3>Jatijajar</h3>
+              <p class="address">Jl Jatijajar II, Jatijajar, Tapos, Depok</p>
+              <a class="map-link" href="#" data-map="Es Teh Porjo Jatijajar"
+                >Buka Maps
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 21s7-6.1 7-12A7 7 0 1 0 5 9c0 5.9 7 12 7 12Z" />
+                  <circle cx="12" cy="9" r="2.3" /></svg
+              ></a>
+            </div>
+          </article>
+
+          <article class="stand-card reveal-right">
+            <div class="stand-photo placeholder-photo">
+              <img
+                src="assets/stand-gallery-3.png"
+                alt="Foto stand Es Teh Porjo"
+              /><span class="photo-label">FOTO STAND</span>
+            </div>
+            <div class="stand-info">
+              <span class="stand-tag">STAND 03</span>
+              <h3>Villa Pertiwi</h3>
+              <p class="address">
+                Jl. Villa Pertiwi Sukamaju, Cilodong, Kota Depok, Jawa Barat 16415
+              <a class="map-link" href="#" data-map="Es Teh Porjo Villa Pertiwi"
+                >Cari di Maps
+                <svg viewBox="0 0 24 24">
+                  <path d="M12 21s7-6.1 7-12A7 7 0 1 0 5 9c0 5.9 7 12 7 12Z" />
+                  <circle cx="12" cy="9" r="2.3" /></svg
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="lokasi" class="section location">
+        <div class="location-copy reveal-left">
+          <span class="eyebrow">LOKASI</span>
+          <h2>Satu klik,<br /><em>langsung ketemu.</em></h2>
+          <p>
+            Pilih stand di atas untuk menuju pencarian Google Maps atau gunakan
+            tombol di bawah untuk melihat seluruh titik.
+          </p>
+          <div class="location-note">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 21s7-6.1 7-12A7 7 0 1 0 5 9c0 5.9 7 12 7 12Z" />
+              <circle cx="12" cy="9" r="2.3" />
+            </svg>
+            <div>
+              <b>Google Maps</b
+              ><small
+                >Ikon dibuat monokrom agar konsisten dengan identitas
+                Porjo.</small
+              >
+            </div>
+          </div>
+          <a class="btn green" href="#" id="allMaps"
+            >Buka Google Maps </a
+          >
+        </div>
+        <div class="map-card reveal-right">
+          <div class="map-lines"></div>
+          <div class="road a"></div>
+          <div class="road b"></div>
+          <div class="pin">⌖</div>
+          <b>ES TEH PORJO</b>
+        </div>
+      </section>
+
+      <section id="tentang" class="section about">
+        <div class="about-photo reveal-left">
+          <img src="assets/hero-stand.png" alt="Outlet Es Teh Porjo" /><img
+            class="about-badge-sugar"
+            src="assets/badge-gula-asli.png"
+            alt="100% Gula Asli"
+          />
+        </div>
+        <div class="about-copy reveal-right">
+          <span class="eyebrow">TENTANG PORJO</span>
+          <h2>Minuman Es Teh ,<br /><em>Rasanya luar biasa.</em></h2>
+          <p>
+            Es Teh Porjo membawa minuman yang dekat dengan masyarakat untuk dikenal sebagai brand es teh
+            dengan racikan yang alami, dingin, dan krasa tehnya, tetap punya standar minuman yang nikmat untuk dikonsumsi.
+          </p>
+          <p>
+            Identitasnya alami racikannya: dingin suasananya, harga bersahabat, dan rasa yang
+            bikin ingin mampir lagi.
+          </p>
+          <blockquote>“Segar • Nikmat • Kroso Tehne”</blockquote>
+          <a class="btn green" href="#kontak">Kenal Lebih Dekat →</a>
+        </div>
+      </section>
+
+      <section id="artikel" class="section article-section">
+        <div class="section-title center reveal-up">
+          <span class="eyebrow">CERITA PORJO</span>
+          <h2>Ngobrol soal <em>teh.</em><br />Rasa, bahan, dan cerita.</h2>
+          <p>
+            Artikel ringan seputar teh, bahan alami, dan inspirasi minuman yang
+            bisa menemani keseharian.
+          </p>
+        </div>
+
+        <div class="article-grid">
+          <article class="article-card reveal-up">
+            <a
+              href="artikel-es-teh.html"
+              class="article-cover tea-cover"
+              aria-label="Baca artikel Es Teh, Minuman Favorit Orang Indonesia"
+            >
+              <img src="assets/artikel-budaya-minumteh.png" alt="Helai daun teh segar" />
+              <span>01</span>
+            </a>
+            <div class="article-body">
+              <small>TEH &amp; BUDAYA</small>
+              <h3>Es Teh, Minuman Favorit Orang Indonesia</h3>
+              <p>
+                Kenapa es teh begitu dekat dengan meja makan, warung, dan
+                aktivitas sehari-hari di Indonesia?
+              </p>
+              <a class="read-more" href="artikel-es-teh.html"
+                >Baca Artikel <b>→</b></a
+              >
+            </div>
+          </article>
+
+          <article class="article-card reveal-up d1">
+            <a
+              href="artikel-kulit-manggis.html"
+              class="article-cover manggis-cover"
+              aria-label="Baca artikel Kulit Manggis dan Es Teh"
+            >
+              <img
+                src="assets/artikel-daerah-tehmanggis.png"
+                alt="Helai daun teh dan bahan alami untuk minuman"
+              />
+              <span>02</span>
+            </a>
+            <div class="article-body">
+              <small>BAHAN ALAMI</small>
+              <h3>Kulit Manggis Sebagai Identitas Daerah ; Es Teh: Perpaduan yang Unik</h3>
+              <p>
+                Mengenal kulit manggis, xanthone, warna alami, dan hal yang
+                perlu diperhatikan saat mengolahnya menjadi minuman.
+              </p>
+              <a class="read-more" href="artikel-kulit-manggis.html"
+                >Baca Artikel <b>→</b></a
+              >
+            </div>
+          </article>
+
+          <article class="article-card reveal-up d2">
+            <a
+              href="artikel-sereh-jeruk.html"
+              class="article-cover citrus-cover"
+              aria-label="Baca artikel Sereh, Jeruk, dan Bahan Alami untuk Es Teh"
+            >
+              <img
+                src="assets/artikel-sereh-jeruk.png"
+                alt="Es Teh Porjo dengan bahan alami"
+              />
+              <span>03</span>
+            </a>
+            <div class="article-body">
+              <small>RASA &amp; BAHAN</small>
+              <h3>Sereh, Jeruk, dan Bahan Alami untuk Es Teh</h3>
+              <p>
+                Eksplorasi rasa dari sereh, jeruk, jahe, kayu manis, dan daun
+                mint tanpa harus membuat klaim kesehatan berlebihan.
+              </p>
+              <a class="read-more" href="artikel-sereh-jeruk.html"
+                >Baca Artikel <b>→</b></a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="kontak" class="section contact">
+        <div class="contact-box reveal-up">
+          <div>
+            <span class="eyebrow">HUBUNGI KAMI</span>
+            <h2>Yuk, Minum <em>Es Teh Porjo.</em></h2>
+            <p>Untuk menu, promo, stand, pemesanan, atau kerja sama.</p>
+          </div>
+          <div class="contact-links">
+            <a id="wa" href="https://wa.me/6288296606854"
+              ><span class="app-icon"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M20 11.5A8 8 0 0 1 8.1 19L4 20l1.2-3.8A8 8 0 1 1 20 11.5Z"
+                  />
+                  <path
+                    d="M8.4 8.2c.2-.5.4-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2.1.4-.1.6l-.5.6c.5 1 1.3 1.8 2.3 2.3l.6-.5c.2-.2.4-.2.6-.1l1.6.7c.3.1.4.3.4.5v.5c0 .4 0 .6-.5.8-.4.2-1.1.3-1.8.1-2.4-.7-4.8-3.1-5.5-5.5-.2-.7-.1-1.4.1-1.8Z"
+                  /></svg
+              ></span>
+              <div><small>WhatsApp</small><b>Pesan Sekarang</b></div>
+              <span class="external-arrow" aria-hidden="true">
+</span>
+        
+            <a id="ig" href="https://instagram.com/estehporjo"
+              ><span class="app-icon"
+                ><svg viewBox="0 0 24 24">
+                  <rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" />
+                  <circle cx="12" cy="12" r="4.1" />
+                  <circle cx="17.4" cy="6.8" r="1" /></svg
+              ></span>
+              <div><small>Instagram</small><b>Ikuti Kami</b></div>
+              <span class="external-arrow" aria-hidden="true">
+</span>
+            
+            <a id="tt" href="https://tiktok.com/@esteh.porjo"
+              ><span class="app-icon"
+                ><svg viewBox="0 0 24 24">
+                  <path
+                    d="M15.5 4v9.1a4.7 4.7 0 1 1-3.8-4.6v2.7a2.1 2.1 0 1 0 1.4 2V4h2.4c.2 1.7 1.2 3 2.9 3.5v2.5c-1.1-.1-2.1-.5-2.9-1.1V13.1a5.5 5.5 0 1 1-5.5-5.5c.4 0 .8 0 1.2.1V10a3 3 0 1 0 1.9 2.8V4h2.4Z"
+                  /></svg
+              ></span>
+              <div><small>TikTok</small><b>Ikuti Kami</b></div>
+              <span class="external-arrow" aria-hidden="true">
+</span>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="" />
+        <p>
+          Es Teh Cita Rasa Luar Biasa.<br /><small
+            >Segar • Nikmat • Kroso Tehne</small
+          >
+        </p>
+      </div>
+      <small>© <span id="year"></span> Es Teh Porjo Version 1.7</small
+      ><button id="top">↑</button>
+    </footer>
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
