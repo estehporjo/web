@@ -2099,4 +2099,39 @@ footer a {
     right: -12px;
   }
 }
+/* =========================================
+   ES TEH PORJO — MOBILE TALENT CARD
+   Merchandise lebih besar dan turun
+   ========================================= */
 
+@media (max-width: 768px) {
+  .talent-card {
+    position: relative;
+    overflow: hidden;
+    min-height: 700px;
+  }
+
+  /* Merchandise di kanan atas, lebih besar dan turun */
+  .merchandise-preview {
+    position: absolute;
+    top: 95px;
+    right: 12px;
+    width: 43%;
+    max-width: 240px;
+    margin: 0;
+    z-index: 2;
+  }
+
+  .merchandise-preview img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* Area teks tetap di kiri */
+  .talent-content {
+    position: relative;
+    z-index: 3;
+    max-width: 55%;
+  }
+}
