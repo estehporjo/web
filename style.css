@@ -2135,3 +2135,39 @@ footer a {
     max-width: 55%;
   }
 }
+
+/* =========================================
+   ES TEH PORJO — FIX MERCHANDISE MOBILE
+   Selector sesuai HTML website asli
+   ========================================= */
+
+@media screen and (max-width: 560px) {
+  .talent {
+    position: relative;
+    overflow: hidden;
+    min-height: 700px;
+  }
+
+  /* Merchandise lebih besar dan turun */
+  .talent img.talent-merchandise {
+    position: absolute !important;
+    top: 100px !important;
+    right: 8px !important;
+    width: 180px !important;
+    height: 155px !important;
+    max-width: none !important;
+    object-fit: contain;
+    z-index: 4;
+    transform: none;
+  }
+
+  /* Foto talent tetap di bagian bawah */
+  .talent img.talent-image {
+    width: 250px;
+    height: 250px;
+    right: -12px;
+    bottom: 0;
+    z-index: 2;
+  }
+}
+
