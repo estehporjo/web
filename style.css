@@ -2170,4 +2170,76 @@ footer a {
     z-index: 2;
   }
 }
+/* =========================================
+   ES TEH PORJO — MERCHANDISE CTA
+   ========================================= */
 
+.talent-merchandise-info {
+  position: absolute;
+  z-index: 5;
+  top: 285px;
+  right: 18px;
+  width: 44%;
+  max-width: 270px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.talent-merchandise-info h3 {
+  margin: 0 0 8px;
+  color: #F0F8A1;
+  font-size: 20px;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.talent-merchandise-info p {
+  margin: 0 0 14px;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.talent-merchandise-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #F0F8A1;
+  color: #075A32;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  transition: transform .2s ease, background .2s ease;
+}
+
+.talent-merchandise-cta:hover {
+  background: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+/* MOBILE */
+@media (max-width: 560px) {
+  .talent-merchandise-info {
+    top: 420px;
+    right: 12px;
+    width: 49%;
+    max-width: none;
+  }
+
+  .talent-merchandise-info h3 {
+    font-size: 17px;
+  }
+
+  .talent-merchandise-info p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .talent-merchandise-cta {
+    padding: 11px 12px;
+    font-size: 12px;
+  }
+}
