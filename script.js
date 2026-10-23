@@ -135,7 +135,7 @@ function toast(msg) {
 document.getElementById("voucherBtn").addEventListener("click", async () => {
   try {
     await navigator.clipboard.writeText("PORJO2000");
-    toast("Kode PORJO2000 berhasil disalin ✨");
+    toast("Kode PORJOGRTS1 berhasil diambil, langsung tunjukkan ke kasir ✨");
   } catch {
     toast("Kode voucher: PORJO2000");
   }
