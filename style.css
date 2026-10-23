@@ -2065,3 +2065,38 @@ footer a {
     flex-direction: column;
   }
 }
+
+/* Merchandise mengisi ruang kosong di atas talent */
+.talent-merchandise {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  right: 18px;
+  width: 145px;
+  height: 115px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.15));
+  pointer-events: none;
+  transition: transform 0.3s ease;
+}
+
+.talent:hover .talent-merchandise {
+  transform: translateY(-4px) rotate(-3deg);
+}
+
+/* Pastikan gambar tidak mengganggu teks di layar kecil */
+@media (max-width: 560px) {
+  .talent-merchandise {
+    width: 100px;
+    height: 90px;
+    top: 10px;
+    right: 8px;
+  }
+
+  .talent-image {
+    width: 190px;
+    height: 190px;
+    right: -12px;
+  }
+}
+
