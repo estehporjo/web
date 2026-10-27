@@ -2544,5 +2544,69 @@ footer a {
   }
 }
 
+/* Tombol pemesanan varian — Es Teh Porjo */
+.variant-extra-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  min-height: 48px;
+  padding: 0 22px;
+
+  background: #105C36;
+  color: #FFFFFF !important;
+
+  border: 1px solid #105C36;
+  border-radius: 12px;
+
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none !important;
+
+  box-sizing: border-box;
+  box-shadow: 0 5px 12px rgba(16, 92, 54, 0.12);
+
+  transition:
+    background .2s ease,
+    box-shadow .2s ease,
+    transform .2s ease;
+}
+
+.variant-extra-button svg {
+  display: block;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.variant-extra-button:hover {
+  background: #0B4429;
+  border-color: #0B4429;
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(16, 92, 54, 0.2);
+}
+
+.variant-extra-button:focus-visible {
+  outline: 3px solid #E8F59B;
+  outline-offset: 3px;
+}
+
+/* Tampilan HP */
+@media (max-width: 560px) {
+  .variant-extra-button {
+    width: 100%;
+    min-height: 46px;
+    padding: 0 16px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+}
+
+
 
 
