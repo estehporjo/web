@@ -2447,4 +2447,16 @@ footer a {
   }
 }
 
+.talent-merchandise-cta .cta-label {
+  background: transparent !important;
+  color: inherit !important;
+  font-size: inherit !important;
+}
+
+.talent-merchandise-cta .cta-arrow {
+  flex-shrink: 0;
+  display: block;
+  color: #075A32;
+}
+
 
